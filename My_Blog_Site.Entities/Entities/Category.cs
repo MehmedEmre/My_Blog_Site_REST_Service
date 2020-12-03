@@ -15,7 +15,7 @@ namespace My_Blog_Site.Entities.Entities
         public string Name { set; get; }
 
         public List<Article> Articles { set; get; }
-      
+
 
     }
 }

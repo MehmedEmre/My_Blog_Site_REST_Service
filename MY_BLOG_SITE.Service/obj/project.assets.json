@@ -5761,11 +5761,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mehme\\Desktop\\My_Blog_Site\\MY_BLOG_SITE.Service\\MY_BLOG_SITE.Service.csproj",
+      "projectUniqueName": "C:\\Users\\mehme\\Desktop\\Desktop\\GitHub\\My_Blog_Site\\MY_BLOG_SITE.Service\\MY_BLOG_SITE.Service.csproj",
       "projectName": "MY_BLOG_SITE.Service",
-      "projectPath": "C:\\Users\\mehme\\Desktop\\My_Blog_Site\\MY_BLOG_SITE.Service\\MY_BLOG_SITE.Service.csproj",
+      "projectPath": "C:\\Users\\mehme\\Desktop\\Desktop\\GitHub\\My_Blog_Site\\MY_BLOG_SITE.Service\\MY_BLOG_SITE.Service.csproj",
       "packagesPath": "C:\\Users\\mehme\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mehme\\Desktop\\My_Blog_Site\\MY_BLOG_SITE.Service\\obj\\",
+      "outputPath": "C:\\Users\\mehme\\Desktop\\Desktop\\GitHub\\My_Blog_Site\\MY_BLOG_SITE.Service\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5784,11 +5784,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\mehme\\Desktop\\My_Blog_Site\\My_Blog_Site.Buisness\\My_Blog_Site.Buisness.csproj": {
-              "projectPath": "C:\\Users\\mehme\\Desktop\\My_Blog_Site\\My_Blog_Site.Buisness\\My_Blog_Site.Buisness.csproj"
+            "C:\\Users\\mehme\\Desktop\\Desktop\\GitHub\\My_Blog_Site\\My_Blog_Site.Buisness\\My_Blog_Site.Buisness.csproj": {
+              "projectPath": "C:\\Users\\mehme\\Desktop\\Desktop\\GitHub\\My_Blog_Site\\My_Blog_Site.Buisness\\My_Blog_Site.Buisness.csproj"
             },
-            "C:\\Users\\mehme\\Desktop\\My_Blog_Site\\My_Blog_Site.Interfaces\\My_Blog_Site.Interfaces.csproj": {
-              "projectPath": "C:\\Users\\mehme\\Desktop\\My_Blog_Site\\My_Blog_Site.Interfaces\\My_Blog_Site.Interfaces.csproj"
+            "C:\\Users\\mehme\\Desktop\\Desktop\\GitHub\\My_Blog_Site\\My_Blog_Site.Interfaces\\My_Blog_Site.Interfaces.csproj": {
+              "projectPath": "C:\\Users\\mehme\\Desktop\\Desktop\\GitHub\\My_Blog_Site\\My_Blog_Site.Interfaces\\My_Blog_Site.Interfaces.csproj"
             }
           }
         }

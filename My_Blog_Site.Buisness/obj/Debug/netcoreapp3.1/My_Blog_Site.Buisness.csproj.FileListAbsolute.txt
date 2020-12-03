@@ -1,0 +1,16 @@
+C:\Users\mehme\Desktop\Desktop\GitHub\My_Blog_Site\My_Blog_Site.Buisness\bin\Debug\netcoreapp3.1\My_Blog_Site.Buisness.deps.json
+C:\Users\mehme\Desktop\Desktop\GitHub\My_Blog_Site\My_Blog_Site.Buisness\bin\Debug\netcoreapp3.1\My_Blog_Site.Buisness.dll
+C:\Users\mehme\Desktop\Desktop\GitHub\My_Blog_Site\My_Blog_Site.Buisness\bin\Debug\netcoreapp3.1\My_Blog_Site.Buisness.pdb
+C:\Users\mehme\Desktop\Desktop\GitHub\My_Blog_Site\My_Blog_Site.Buisness\bin\Debug\netcoreapp3.1\My_Blog_Site.DataAccess.dll
+C:\Users\mehme\Desktop\Desktop\GitHub\My_Blog_Site\My_Blog_Site.Buisness\bin\Debug\netcoreapp3.1\My_Blog_Site.Entities.dll
+C:\Users\mehme\Desktop\Desktop\GitHub\My_Blog_Site\My_Blog_Site.Buisness\bin\Debug\netcoreapp3.1\My_Blog_Site.Interfaces.dll
+C:\Users\mehme\Desktop\Desktop\GitHub\My_Blog_Site\My_Blog_Site.Buisness\bin\Debug\netcoreapp3.1\My_Blog_Site.DataAccess.pdb
+C:\Users\mehme\Desktop\Desktop\GitHub\My_Blog_Site\My_Blog_Site.Buisness\bin\Debug\netcoreapp3.1\My_Blog_Site.Entities.pdb
+C:\Users\mehme\Desktop\Desktop\GitHub\My_Blog_Site\My_Blog_Site.Buisness\bin\Debug\netcoreapp3.1\My_Blog_Site.Interfaces.pdb
+C:\Users\mehme\Desktop\Desktop\GitHub\My_Blog_Site\My_Blog_Site.Buisness\obj\Debug\netcoreapp3.1\My_Blog_Site.Buisness.csprojAssemblyReference.cache
+C:\Users\mehme\Desktop\Desktop\GitHub\My_Blog_Site\My_Blog_Site.Buisness\obj\Debug\netcoreapp3.1\My_Blog_Site.Buisness.AssemblyInfoInputs.cache
+C:\Users\mehme\Desktop\Desktop\GitHub\My_Blog_Site\My_Blog_Site.Buisness\obj\Debug\netcoreapp3.1\My_Blog_Site.Buisness.AssemblyInfo.cs
+C:\Users\mehme\Desktop\Desktop\GitHub\My_Blog_Site\My_Blog_Site.Buisness\obj\Debug\netcoreapp3.1\My_Blog_Site.Buisness.csproj.CoreCompileInputs.cache
+C:\Users\mehme\Desktop\Desktop\GitHub\My_Blog_Site\My_Blog_Site.Buisness\obj\Debug\netcoreapp3.1\My_Blog_Site.Buisness.csproj.CopyComplete
+C:\Users\mehme\Desktop\Desktop\GitHub\My_Blog_Site\My_Blog_Site.Buisness\obj\Debug\netcoreapp3.1\My_Blog_Site.Buisness.dll
+C:\Users\mehme\Desktop\Desktop\GitHub\My_Blog_Site\My_Blog_Site.Buisness\obj\Debug\netcoreapp3.1\My_Blog_Site.Buisness.pdb

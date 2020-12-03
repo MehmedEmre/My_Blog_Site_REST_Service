@@ -5742,11 +5742,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mehme\\Desktop\\My_Blog_Site\\My_Blog_Site.Buisness\\My_Blog_Site.Buisness.csproj",
+      "projectUniqueName": "C:\\Users\\mehme\\Desktop\\Desktop\\GitHub\\My_Blog_Site\\My_Blog_Site.Buisness\\My_Blog_Site.Buisness.csproj",
       "projectName": "My_Blog_Site.Buisness",
-      "projectPath": "C:\\Users\\mehme\\Desktop\\My_Blog_Site\\My_Blog_Site.Buisness\\My_Blog_Site.Buisness.csproj",
+      "projectPath": "C:\\Users\\mehme\\Desktop\\Desktop\\GitHub\\My_Blog_Site\\My_Blog_Site.Buisness\\My_Blog_Site.Buisness.csproj",
       "packagesPath": "C:\\Users\\mehme\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mehme\\Desktop\\My_Blog_Site\\My_Blog_Site.Buisness\\obj\\",
+      "outputPath": "C:\\Users\\mehme\\Desktop\\Desktop\\GitHub\\My_Blog_Site\\My_Blog_Site.Buisness\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5765,14 +5765,14 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\mehme\\Desktop\\My_Blog_Site\\My_Blog_Site.DataAccess\\My_Blog_Site.DataAccess.csproj": {
-              "projectPath": "C:\\Users\\mehme\\Desktop\\My_Blog_Site\\My_Blog_Site.DataAccess\\My_Blog_Site.DataAccess.csproj"
+            "C:\\Users\\mehme\\Desktop\\Desktop\\GitHub\\My_Blog_Site\\My_Blog_Site.DataAccess\\My_Blog_Site.DataAccess.csproj": {
+              "projectPath": "C:\\Users\\mehme\\Desktop\\Desktop\\GitHub\\My_Blog_Site\\My_Blog_Site.DataAccess\\My_Blog_Site.DataAccess.csproj"
             },
-            "C:\\Users\\mehme\\Desktop\\My_Blog_Site\\My_Blog_Site.Entities\\My_Blog_Site.Entities.csproj": {
-              "projectPath": "C:\\Users\\mehme\\Desktop\\My_Blog_Site\\My_Blog_Site.Entities\\My_Blog_Site.Entities.csproj"
+            "C:\\Users\\mehme\\Desktop\\Desktop\\GitHub\\My_Blog_Site\\My_Blog_Site.Entities\\My_Blog_Site.Entities.csproj": {
+              "projectPath": "C:\\Users\\mehme\\Desktop\\Desktop\\GitHub\\My_Blog_Site\\My_Blog_Site.Entities\\My_Blog_Site.Entities.csproj"
             },
-            "C:\\Users\\mehme\\Desktop\\My_Blog_Site\\My_Blog_Site.Interfaces\\My_Blog_Site.Interfaces.csproj": {
-              "projectPath": "C:\\Users\\mehme\\Desktop\\My_Blog_Site\\My_Blog_Site.Interfaces\\My_Blog_Site.Interfaces.csproj"
+            "C:\\Users\\mehme\\Desktop\\Desktop\\GitHub\\My_Blog_Site\\My_Blog_Site.Interfaces\\My_Blog_Site.Interfaces.csproj": {
+              "projectPath": "C:\\Users\\mehme\\Desktop\\Desktop\\GitHub\\My_Blog_Site\\My_Blog_Site.Interfaces\\My_Blog_Site.Interfaces.csproj"
             }
           }
         }

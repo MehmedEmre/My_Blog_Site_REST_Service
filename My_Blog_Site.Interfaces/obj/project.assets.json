@@ -33,11 +33,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mehme\\Desktop\\My_Blog_Site\\My_Blog_Site.Interfaces\\My_Blog_Site.Interfaces.csproj",
+      "projectUniqueName": "C:\\Users\\mehme\\Desktop\\Desktop\\GitHub\\My_Blog_Site\\My_Blog_Site.Interfaces\\My_Blog_Site.Interfaces.csproj",
       "projectName": "My_Blog_Site.Interfaces",
-      "projectPath": "C:\\Users\\mehme\\Desktop\\My_Blog_Site\\My_Blog_Site.Interfaces\\My_Blog_Site.Interfaces.csproj",
+      "projectPath": "C:\\Users\\mehme\\Desktop\\Desktop\\GitHub\\My_Blog_Site\\My_Blog_Site.Interfaces\\My_Blog_Site.Interfaces.csproj",
       "packagesPath": "C:\\Users\\mehme\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mehme\\Desktop\\My_Blog_Site\\My_Blog_Site.Interfaces\\obj\\",
+      "outputPath": "C:\\Users\\mehme\\Desktop\\Desktop\\GitHub\\My_Blog_Site\\My_Blog_Site.Interfaces\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -56,8 +56,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\mehme\\Desktop\\My_Blog_Site\\My_Blog_Site.Entities\\My_Blog_Site.Entities.csproj": {
-              "projectPath": "C:\\Users\\mehme\\Desktop\\My_Blog_Site\\My_Blog_Site.Entities\\My_Blog_Site.Entities.csproj"
+            "C:\\Users\\mehme\\Desktop\\Desktop\\GitHub\\My_Blog_Site\\My_Blog_Site.Entities\\My_Blog_Site.Entities.csproj": {
+              "projectPath": "C:\\Users\\mehme\\Desktop\\Desktop\\GitHub\\My_Blog_Site\\My_Blog_Site.Entities\\My_Blog_Site.Entities.csproj"
             }
           }
         }

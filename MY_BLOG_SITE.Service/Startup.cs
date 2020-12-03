@@ -34,14 +34,14 @@ namespace MY_BLOG_SITE.Service
             services.AddControllers();
 
             //CORS Configuration
-            services.AddCors(c=> {
+            services.AddCors(c => {
 
                 c.AddDefaultPolicy(x => {
 
-                    x.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod().AllowCredentials();
+                    x.SetIsOriginAllowed(origin => true).AllowAnyHeader().AllowAnyMethod().AllowCredentials();
                     //Tüm originlere -- Tüm headerlara -- Tüm metod isteklerine(put post) -- Tüm kimlik doðrulama yöntemlerine(Örn:JWT)
                     //izin ver
-                
+
                 });
 
             });

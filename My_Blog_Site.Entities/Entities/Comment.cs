@@ -12,11 +12,11 @@ namespace My_Blog_Site.Entities.Entities
         [Key, DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id { set; get; }
 
-        [StringLength(50),Required]
+        [StringLength(50), Required]
         public string Comment_Owner_Name { get; set; }
 
         [MaxLength, Required]
-        public string Comment_Content{ set; get; }
+        public string Comment_Content { set; get; }
 
         [Required]
         public DateTime Publish_Date { set; get; }

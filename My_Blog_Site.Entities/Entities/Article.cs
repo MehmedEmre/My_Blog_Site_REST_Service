@@ -14,7 +14,7 @@ namespace My_Blog_Site.Entities.Entities
         [StringLength(250)]
         public string Title { get; set; }
 
-        [StringLength(500),Required]
+        [StringLength(500), Required]
         public string Article_Summary { get; set; }
 
         [MaxLength, Required]
@@ -24,7 +24,7 @@ namespace My_Blog_Site.Entities.Entities
         public DateTime Publish_Date { set; get; }
 
         [StringLength(300)]
-        public string Picture {set;get;}
+        public string Picture { set; get; }
 
         [Required]
         public int View_Count { set; get; }

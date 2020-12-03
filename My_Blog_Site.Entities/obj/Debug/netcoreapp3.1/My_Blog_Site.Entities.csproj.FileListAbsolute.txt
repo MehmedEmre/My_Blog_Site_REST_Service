@@ -1,0 +1,9 @@
+C:\Users\mehme\Desktop\Desktop\GitHub\My_Blog_Site\My_Blog_Site.Entities\bin\Debug\netcoreapp3.1\My_Blog_Site.Entities.deps.json
+C:\Users\mehme\Desktop\Desktop\GitHub\My_Blog_Site\My_Blog_Site.Entities\bin\Debug\netcoreapp3.1\My_Blog_Site.Entities.dll
+C:\Users\mehme\Desktop\Desktop\GitHub\My_Blog_Site\My_Blog_Site.Entities\bin\Debug\netcoreapp3.1\My_Blog_Site.Entities.pdb
+C:\Users\mehme\Desktop\Desktop\GitHub\My_Blog_Site\My_Blog_Site.Entities\obj\Debug\netcoreapp3.1\My_Blog_Site.Entities.csprojAssemblyReference.cache
+C:\Users\mehme\Desktop\Desktop\GitHub\My_Blog_Site\My_Blog_Site.Entities\obj\Debug\netcoreapp3.1\My_Blog_Site.Entities.AssemblyInfoInputs.cache
+C:\Users\mehme\Desktop\Desktop\GitHub\My_Blog_Site\My_Blog_Site.Entities\obj\Debug\netcoreapp3.1\My_Blog_Site.Entities.AssemblyInfo.cs
+C:\Users\mehme\Desktop\Desktop\GitHub\My_Blog_Site\My_Blog_Site.Entities\obj\Debug\netcoreapp3.1\My_Blog_Site.Entities.csproj.CoreCompileInputs.cache
+C:\Users\mehme\Desktop\Desktop\GitHub\My_Blog_Site\My_Blog_Site.Entities\obj\Debug\netcoreapp3.1\My_Blog_Site.Entities.dll
+C:\Users\mehme\Desktop\Desktop\GitHub\My_Blog_Site\My_Blog_Site.Entities\obj\Debug\netcoreapp3.1\My_Blog_Site.Entities.pdb

@@ -1,0 +1,12 @@
+C:\Users\mehme\Desktop\Desktop\GitHub\My_Blog_Site\My_Blog_Site.Interfaces\bin\Debug\netcoreapp3.1\My_Blog_Site.Interfaces.deps.json
+C:\Users\mehme\Desktop\Desktop\GitHub\My_Blog_Site\My_Blog_Site.Interfaces\bin\Debug\netcoreapp3.1\My_Blog_Site.Interfaces.dll
+C:\Users\mehme\Desktop\Desktop\GitHub\My_Blog_Site\My_Blog_Site.Interfaces\bin\Debug\netcoreapp3.1\My_Blog_Site.Interfaces.pdb
+C:\Users\mehme\Desktop\Desktop\GitHub\My_Blog_Site\My_Blog_Site.Interfaces\bin\Debug\netcoreapp3.1\My_Blog_Site.Entities.dll
+C:\Users\mehme\Desktop\Desktop\GitHub\My_Blog_Site\My_Blog_Site.Interfaces\bin\Debug\netcoreapp3.1\My_Blog_Site.Entities.pdb
+C:\Users\mehme\Desktop\Desktop\GitHub\My_Blog_Site\My_Blog_Site.Interfaces\obj\Debug\netcoreapp3.1\My_Blog_Site.Interfaces.csprojAssemblyReference.cache
+C:\Users\mehme\Desktop\Desktop\GitHub\My_Blog_Site\My_Blog_Site.Interfaces\obj\Debug\netcoreapp3.1\My_Blog_Site.Interfaces.AssemblyInfoInputs.cache
+C:\Users\mehme\Desktop\Desktop\GitHub\My_Blog_Site\My_Blog_Site.Interfaces\obj\Debug\netcoreapp3.1\My_Blog_Site.Interfaces.AssemblyInfo.cs
+C:\Users\mehme\Desktop\Desktop\GitHub\My_Blog_Site\My_Blog_Site.Interfaces\obj\Debug\netcoreapp3.1\My_Blog_Site.Interfaces.csproj.CoreCompileInputs.cache
+C:\Users\mehme\Desktop\Desktop\GitHub\My_Blog_Site\My_Blog_Site.Interfaces\obj\Debug\netcoreapp3.1\My_Blog_Site.Interfaces.csproj.CopyComplete
+C:\Users\mehme\Desktop\Desktop\GitHub\My_Blog_Site\My_Blog_Site.Interfaces\obj\Debug\netcoreapp3.1\My_Blog_Site.Interfaces.dll
+C:\Users\mehme\Desktop\Desktop\GitHub\My_Blog_Site\My_Blog_Site.Interfaces\obj\Debug\netcoreapp3.1\My_Blog_Site.Interfaces.pdb

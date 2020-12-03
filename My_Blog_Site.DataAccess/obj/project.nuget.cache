@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "I6iIHYAiu8RYDNYFeLzquADuVb5BJ/4qr7UgKVcM9xX8WdidgP6Bh1hPiTcCG/ayqHdB+raDxdXvzllyKQcMIw==",
+  "dgSpecHash": "Wx50nw1Q3F4mO+54Q4n4pFrmOtNnUWx30pelR/s0ObBxAhQBWHjlzrJcIc3hvCSrvtL6HWVlNmso9ExCAFcs3A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mehme\\Desktop\\My_Blog_Site\\My_Blog_Site.DataAccess\\My_Blog_Site.DataAccess.csproj",
+  "projectFilePath": "C:\\Users\\mehme\\Desktop\\Desktop\\GitHub\\My_Blog_Site\\My_Blog_Site.DataAccess\\My_Blog_Site.DataAccess.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mehme\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\mehme\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

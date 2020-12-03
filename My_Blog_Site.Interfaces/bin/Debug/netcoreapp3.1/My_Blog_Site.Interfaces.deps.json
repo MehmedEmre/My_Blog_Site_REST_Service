@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "My_Blog_Site.Interfaces/1.0.0": {
+        "dependencies": {
+          "My_Blog_Site.Entities": "1.0.0"
+        },
+        "runtime": {
+          "My_Blog_Site.Interfaces.dll": {}
+        }
+      },
+      "My_Blog_Site.Entities/1.0.0": {
+        "runtime": {
+          "My_Blog_Site.Entities.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "My_Blog_Site.Interfaces/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "My_Blog_Site.Entities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
