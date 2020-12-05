@@ -12,9 +12,7 @@ namespace My_Blog_Site.DataAccess.Concrete.EntityFramework.Repository
 {
     public abstract class Repository<T> : RepositoryBase, IRepository<T> where T : class
     {
-  
         public DbSet<T> context { set; get; }
-
 
         public Repository()
         {

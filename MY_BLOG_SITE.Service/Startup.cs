@@ -47,6 +47,12 @@ namespace MY_BLOG_SITE.Service
             });
             services.AddSingleton<ICategoryService, CategoryManager>();
             services.AddSingleton<ICategoryRepository, CategoryRepository>();
+
+            services.AddSingleton<ICommentService, CommentManager>();
+            services.AddSingleton<ICommentRepository, CommentRepository>();
+
+            services.AddSingleton<IArticleService, ArticleManager>();
+            services.AddSingleton<IArticleRepository, ArticleRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
