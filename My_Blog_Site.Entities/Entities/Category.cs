@@ -16,6 +16,9 @@ namespace My_Blog_Site.Entities.Entities
 
         public List<Article> Articles { set; get; }
 
-
+        public Category()
+        {
+            Articles = new List<Article>();
+        }
     }
 }

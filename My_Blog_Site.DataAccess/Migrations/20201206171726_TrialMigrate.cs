@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace My_Blog_Site.DataAccess.Migrations
 {
-    public partial class Migration1 : Migration
+    public partial class TrialMigrate : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

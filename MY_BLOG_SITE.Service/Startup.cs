@@ -15,6 +15,7 @@ using My_Blog_Site.Buisness.Concrete;
 using My_Blog_Site.DataAccess.Abstract;
 using My_Blog_Site.DataAccess.Concrete.EntityFramework.Context;
 using My_Blog_Site.DataAccess.Concrete.EntityFramework.Repository;
+using My_Blog_Site.Helper.Extensions.Initializer;
 using My_Blog_Site.Interfaces;
 
 namespace MY_BLOG_SITE.Service
@@ -61,6 +62,7 @@ namespace MY_BLOG_SITE.Service
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
+                app.InitializerDb(true);//Veritabanýný oluþtururken fakedatalar ile dolduruyoruz.
             }
 
             app.UseHttpsRedirection();

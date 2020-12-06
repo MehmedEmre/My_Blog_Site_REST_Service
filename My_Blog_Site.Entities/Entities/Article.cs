@@ -29,8 +29,14 @@ namespace My_Blog_Site.Entities.Entities
         [Required]
         public int View_Count { set; get; }
 
-        public Category _Category { set; get; }
+        public Category Category { set; get; }
 
-        List<Comment> Comments { set; get; }
+        public List<Comment> Comments { set; get; }
+
+        public Article()
+        {
+            Comments = new List<Comment>();
+        }
+
     }
 }

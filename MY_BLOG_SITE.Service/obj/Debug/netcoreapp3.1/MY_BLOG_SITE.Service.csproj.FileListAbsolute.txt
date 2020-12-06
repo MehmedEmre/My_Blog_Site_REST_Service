@@ -67,3 +67,6 @@ C:\Users\mehme\Desktop\Desktop\GitHub\My_Blog_Site\MY_BLOG_SITE.Service\obj\Debu
 C:\Users\mehme\Desktop\Desktop\GitHub\My_Blog_Site\MY_BLOG_SITE.Service\obj\Debug\netcoreapp3.1\MY_BLOG_SITE.Service.dll
 C:\Users\mehme\Desktop\Desktop\GitHub\My_Blog_Site\MY_BLOG_SITE.Service\obj\Debug\netcoreapp3.1\MY_BLOG_SITE.Service.pdb
 C:\Users\mehme\Desktop\Desktop\GitHub\My_Blog_Site\MY_BLOG_SITE.Service\obj\Debug\netcoreapp3.1\MY_BLOG_SITE.Service.genruntimeconfig.cache
+C:\Users\mehme\Desktop\Desktop\GitHub\My_Blog_Site\MY_BLOG_SITE.Service\bin\Debug\netcoreapp3.1\My_Blog_Site.Helper.dll
+C:\Users\mehme\Desktop\Desktop\GitHub\My_Blog_Site\MY_BLOG_SITE.Service\bin\Debug\netcoreapp3.1\My_Blog_Site.Helper.pdb
+C:\Users\mehme\Desktop\Desktop\GitHub\My_Blog_Site\MY_BLOG_SITE.Service\bin\Debug\netcoreapp3.1\FakeData.dll

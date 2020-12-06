@@ -68,5 +68,9 @@ namespace My_Blog_Site.Buisness.Abstract
             }
         }
 
+        public List<T> GetAllNonGeneric()
+        {
+            return _IRepository.GetAllNonGeneric();
+        }
     }
 }

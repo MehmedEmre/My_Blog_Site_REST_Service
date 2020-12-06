@@ -14,6 +14,8 @@ namespace My_Blog_Site.Interfaces
 
         Task<List<T>> GetAll();
 
+        List<T> GetAllNonGeneric();
+
         Task<List<T>> GetAll(Expression<Func<T, bool>> expression);
 
         Task<T> Update(T item);
@@ -21,7 +23,5 @@ namespace My_Blog_Site.Interfaces
         Task<bool> Remove(T item);
 
         Task<bool> Remove(int item);
-
-
     }
 }

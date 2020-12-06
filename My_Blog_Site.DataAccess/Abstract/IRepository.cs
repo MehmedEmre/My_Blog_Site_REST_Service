@@ -14,6 +14,8 @@ namespace My_Blog_Site.DataAccess.Abstract
 
         Task<List<T>> GetAll();
 
+        List<T> GetAllNonGeneric();
+
         Task<List<T>> GetAll(Expression<Func<T, bool>> expression);
 
         Task<T> Update(T item);
@@ -22,5 +24,6 @@ namespace My_Blog_Site.DataAccess.Abstract
 
         Task<bool> Remove(int item);
 
+        
     }
 }

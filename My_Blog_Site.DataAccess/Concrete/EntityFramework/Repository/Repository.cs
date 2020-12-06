@@ -44,6 +44,10 @@ namespace My_Blog_Site.DataAccess.Concrete.EntityFramework.Repository
             return await context.AsNoTracking().Where(expression).ToListAsync();
         }
 
+        public List<T> GetAllNonGeneric()
+        {
+            return context.ToList<T>();
+        }
 
         public async Task<bool> Remove(int item)
         {
@@ -82,5 +86,6 @@ namespace My_Blog_Site.DataAccess.Concrete.EntityFramework.Repository
             }
         }
 
+      
     }
 }

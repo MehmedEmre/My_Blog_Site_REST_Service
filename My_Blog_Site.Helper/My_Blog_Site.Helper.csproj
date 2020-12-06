@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FakeData" Version="1.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\My_Blog_Site.DataAccess\My_Blog_Site.DataAccess.csproj" />
+    <ProjectReference Include="..\My_Blog_Site.Entities\My_Blog_Site.Entities.csproj" />
+  </ItemGroup>
+
+</Project>

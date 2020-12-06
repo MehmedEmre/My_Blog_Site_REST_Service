@@ -18,6 +18,8 @@ namespace My_Blog_Site.DataAccess.Concrete.EntityFramework.Context
             optionsBuilder.UseSqlServer("Server=DESKTOP-D6E78MU\\SQLEXPRESS; database=MyBlogSite ;integrated security=true;");
         }
 
+     
+
         public override void Dispose()
         {
             GC.SuppressFinalize(this);

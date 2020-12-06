@@ -2,6 +2,40 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v3.1": {
+      "FakeData/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/FakeData.dll": {}
+        },
+        "runtime": {
+          "lib/FakeData.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.Http.Abstractions/2.2.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Http.Features": "2.2.0",
+          "System.Text.Encodings.Web": "4.5.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Http.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Http.Abstractions.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.Http.Features/2.2.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "2.2.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Http.Features.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Http.Features.dll": {}
+        }
+      },
       "Microsoft.CSharp/4.5.0": {
         "type": "package",
         "compile": {
@@ -1317,6 +1351,15 @@
           "ref/netstandard1.3/System.Text.Encoding.Extensions.dll": {}
         }
       },
+      "System.Text.Encodings.Web/4.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/System.Text.Encodings.Web.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Text.Encodings.Web.dll": {}
+        }
+      },
       "System.Text.RegularExpressions/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -1523,6 +1566,22 @@
           "bin/placeholder/My_Blog_Site.Entities.dll": {}
         }
       },
+      "My_Blog_Site.Helper/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "FakeData": "1.0.0",
+          "Microsoft.AspNetCore.Http.Abstractions": "2.2.0",
+          "My_Blog_Site.DataAccess": "1.0.0",
+          "My_Blog_Site.Entities": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/My_Blog_Site.Helper.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/My_Blog_Site.Helper.dll": {}
+        }
+      },
       "My_Blog_Site.Interfaces/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
@@ -1539,6 +1598,45 @@
     }
   },
   "libraries": {
+    "FakeData/1.0.0": {
+      "sha512": "hHp5a569gbVo7Fg/whOeDSFExhaB/cidqDTUTFxQDphsMeQhuS0AEyxfg1WunJz5W4ZOPdwEqhQJqEfUCnl9Ow==",
+      "type": "package",
+      "path": "fakedata/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "fakedata.1.0.0.nupkg.sha512",
+        "fakedata.nuspec",
+        "lib/FakeData.dll",
+        "lib/FakeData.pdb"
+      ]
+    },
+    "Microsoft.AspNetCore.Http.Abstractions/2.2.0": {
+      "sha512": "Nxs7Z1q3f1STfLYKJSVXCs1iBl+Ya6E8o4Oy1bCxJ/rNI44E/0f6tbsrVqAWfB7jlnJfyaAtIalBVxPKUPQb4Q==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.http.abstractions/2.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Http.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Http.Abstractions.xml",
+        "microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
+        "microsoft.aspnetcore.http.abstractions.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.Http.Features/2.2.0": {
+      "sha512": "ziFz5zH8f33En4dX81LW84I6XrYXKf9jg6aM39cM+LffN9KJahViKZ61dGMSO2gd3e+qe5yBRwsesvyqlZaSMg==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.http.features/2.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Http.Features.dll",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Http.Features.xml",
+        "microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
+        "microsoft.aspnetcore.http.features.nuspec"
+      ]
+    },
     "Microsoft.CSharp/4.5.0": {
       "sha512": "kaj6Wb4qoMuH3HySFJhxwQfe8R/sJsNJnANrvv8WdFPMoNbKY5htfNscv+LHCu5ipz+49m2e+WQXpLXr9XYemQ==",
       "type": "package",
@@ -5217,6 +5315,25 @@
         "system.text.encoding.extensions.nuspec"
       ]
     },
+    "System.Text.Encodings.Web/4.5.0": {
+      "sha512": "Xg4G4Indi4dqP1iuAiMSwpiWS54ZghzR644OtsRCm/m/lBMG8dUBhLVN7hLm8NNrNTR+iGbshCPTwrvxZPlm4g==",
+      "type": "package",
+      "path": "system.text.encodings.web/4.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/netstandard1.0/System.Text.Encodings.Web.dll",
+        "lib/netstandard1.0/System.Text.Encodings.Web.xml",
+        "lib/netstandard2.0/System.Text.Encodings.Web.dll",
+        "lib/netstandard2.0/System.Text.Encodings.Web.xml",
+        "system.text.encodings.web.4.5.0.nupkg.sha512",
+        "system.text.encodings.web.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
     "System.Text.RegularExpressions/4.3.0": {
       "sha512": "RpT2DA+L660cBt1FssIE9CAGpLFdFPuheB7pLpKpn6ZXNby7jDERe8Ua/Ne2xGiwLVG2JOqziiaVCGDon5sKFA==",
       "type": "package",
@@ -5742,6 +5859,11 @@
       "path": "../My_Blog_Site.Entities/My_Blog_Site.Entities.csproj",
       "msbuildProject": "../My_Blog_Site.Entities/My_Blog_Site.Entities.csproj"
     },
+    "My_Blog_Site.Helper/1.0.0": {
+      "type": "project",
+      "path": "../My_Blog_Site.Helper/My_Blog_Site.Helper.csproj",
+      "msbuildProject": "../My_Blog_Site.Helper/My_Blog_Site.Helper.csproj"
+    },
     "My_Blog_Site.Interfaces/1.0.0": {
       "type": "project",
       "path": "../My_Blog_Site.Interfaces/My_Blog_Site.Interfaces.csproj",
@@ -5751,6 +5873,7 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "My_Blog_Site.Buisness >= 1.0.0",
+      "My_Blog_Site.Helper >= 1.0.0",
       "My_Blog_Site.Interfaces >= 1.0.0"
     ]
   },
@@ -5787,6 +5910,9 @@
             "C:\\Users\\mehme\\Desktop\\Desktop\\GitHub\\My_Blog_Site\\My_Blog_Site.Buisness\\My_Blog_Site.Buisness.csproj": {
               "projectPath": "C:\\Users\\mehme\\Desktop\\Desktop\\GitHub\\My_Blog_Site\\My_Blog_Site.Buisness\\My_Blog_Site.Buisness.csproj"
             },
+            "C:\\Users\\mehme\\Desktop\\Desktop\\GitHub\\My_Blog_Site\\My_Blog_Site.Helper\\My_Blog_Site.Helper.csproj": {
+              "projectPath": "C:\\Users\\mehme\\Desktop\\Desktop\\GitHub\\My_Blog_Site\\My_Blog_Site.Helper\\My_Blog_Site.Helper.csproj"
+            },
             "C:\\Users\\mehme\\Desktop\\Desktop\\GitHub\\My_Blog_Site\\My_Blog_Site.Interfaces\\My_Blog_Site.Interfaces.csproj": {
               "projectPath": "C:\\Users\\mehme\\Desktop\\Desktop\\GitHub\\My_Blog_Site\\My_Blog_Site.Interfaces\\My_Blog_Site.Interfaces.csproj"
             }
@@ -5822,5 +5948,17 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'FakeData 1.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "libraryId": "FakeData",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
 }

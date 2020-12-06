@@ -21,7 +21,7 @@ namespace My_Blog_Site.Entities.Entities
         [Required]
         public DateTime Publish_Date { set; get; }
 
-        public Article _Article { set; get; }
+        public Article Article { set; get; }
 
     }
 }

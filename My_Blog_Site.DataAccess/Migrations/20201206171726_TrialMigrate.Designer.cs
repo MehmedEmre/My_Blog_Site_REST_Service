@@ -10,8 +10,8 @@ using My_Blog_Site.DataAccess.Concrete.EntityFramework.Context;
 namespace My_Blog_Site.DataAccess.Migrations
 {
     [DbContext(typeof(MyBlogSiteContext))]
-    [Migration("20201203214445_Migration1")]
-    partial class Migration1
+    [Migration("20201206171726_TrialMigrate")]
+    partial class TrialMigrate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
