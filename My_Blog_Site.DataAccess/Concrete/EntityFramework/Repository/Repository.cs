@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using My_Blog_Site.DataAccess.Abstract;
 using My_Blog_Site.DataAccess.Concrete.EntityFramework.Context;
+using My_Blog_Site.Entities.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -44,10 +45,12 @@ namespace My_Blog_Site.DataAccess.Concrete.EntityFramework.Repository
             return await context.AsNoTracking().Where(expression).ToListAsync();
         }
 
-        public List<T> GetAllNonGeneric()
+        public async Task<List<Article>> GetAllArticleModel()
         {
-            return context.ToList<T>();
+            return await db.ArticleTable.Include(x => x.Category).Include(x => x.Comments).AsNoTracking().ToListAsync();
         }
+
+
 
         public async Task<bool> Remove(int item)
         {

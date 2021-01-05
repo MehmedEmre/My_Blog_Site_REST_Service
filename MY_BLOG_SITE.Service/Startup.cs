@@ -46,6 +46,7 @@ namespace MY_BLOG_SITE.Service
                 });
 
             });
+
             services.AddSingleton<ICategoryService, CategoryManager>();
             services.AddSingleton<ICategoryRepository, CategoryRepository>();
 

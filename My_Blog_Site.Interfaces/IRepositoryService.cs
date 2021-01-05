@@ -1,4 +1,5 @@
-﻿using System;
+﻿using My_Blog_Site.Entities.Entities;
+using System;
 using System.Collections.Generic;
 using System.Linq.Expressions;
 using System.Text;
@@ -14,7 +15,7 @@ namespace My_Blog_Site.Interfaces
 
         Task<List<T>> GetAll();
 
-        List<T> GetAllNonGeneric();
+        Task<List<Article>> GetAllArticleModel();
 
         Task<List<T>> GetAll(Expression<Func<T, bool>> expression);
 

@@ -18,7 +18,9 @@ namespace MY_BLOG_SITE.Service.Controllers
         private readonly ICategoryService _ICategoryService;
         private readonly ICommentService _ICommentService;
 
-        public ArticleController(IArticleService IArticleService,ICategoryService ICategoryService, ICommentService ICommentService)
+
+
+        public ArticleController(IArticleService IArticleService, ICategoryService ICategoryService, ICommentService ICommentService)
         {
             _IArticleService = IArticleService;
             _ICategoryService = ICategoryService;
@@ -28,15 +30,11 @@ namespace MY_BLOG_SITE.Service.Controllers
 
         [HttpGet]
         [Route("{page}/{pageSize}")]
-        public  IActionResult GetArticle(int page = 1,int pageSize = 5)
+        public async Task<IActionResult> GetArticle(int page = 1, int pageSize = 5)
         {
-
             try
             {
-                List<Article> articleList = _IArticleService.GetAllNonGeneric();
-                _ICategoryService.GetAllNonGeneric();
-                _ICommentService.GetAllNonGeneric();
-
+                List<Article> articleList = await _IArticleService.GetAllArticleModel();
 
                 int totalCount = articleList.Count();
 
@@ -70,6 +68,39 @@ namespace MY_BLOG_SITE.Service.Controllers
                 return BadRequest(ex.Message);
             }
 
+
+        }
+
+
+        [HttpGet("{id}")]
+        public async Task<IActionResult> GetArticle(int id)
+        {
+            List<Article> articleList =  await _IArticleService.GetAllArticleModel();
+
+            Article article = articleList.Find(x => x.Id == id);
+
+            if(article != null)
+            {
+                ArticleViewModel articleViewModel = new ArticleViewModel()
+                {
+                    Id = article.Id,
+                    Title = article.Title,
+                    Article_Summary = article.Article_Summary,
+                    Article_Content = article.Article_Content,
+                    Picture = article.Picture,
+                    Publish_Date = article.Publish_Date,
+                    View_Count = article.View_Count,
+                    Category = new CategoryViewModel()
+                    {
+                        Id = article.Category.Id,
+                        Name = article.Category.Name
+                    },
+                    Comment_Count = article.Comments.Count
+                };
+                return Ok(articleViewModel);
+            }
+
+            return NotFound();
 
         }
 

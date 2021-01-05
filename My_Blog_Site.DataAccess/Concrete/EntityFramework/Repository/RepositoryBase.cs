@@ -16,14 +16,11 @@ namespace My_Blog_Site.DataAccess.Concrete.EntityFramework.Repository
         }
 
         private static void CreateContext()
-        {
-            if(db == null)
-            {
-                lock (_lockSync)
-                {
-                    db = new MyBlogSiteContext();
-                }               
-            }
+        {            
+            
+            db = new MyBlogSiteContext();
+                                        
+            
         }
 
     }

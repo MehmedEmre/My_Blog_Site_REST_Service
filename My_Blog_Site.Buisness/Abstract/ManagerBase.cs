@@ -1,4 +1,5 @@
 ﻿using My_Blog_Site.DataAccess.Abstract;
+using My_Blog_Site.Entities.Entities;
 using My_Blog_Site.Interfaces;
 using System;
 using System.Collections.Generic;
@@ -68,9 +69,9 @@ namespace My_Blog_Site.Buisness.Abstract
             }
         }
 
-        public List<T> GetAllNonGeneric()
+        public async Task<List<Article>> GetAllArticleModel()
         {
-            return _IRepository.GetAllNonGeneric();
+            return await _IRepository.GetAllArticleModel();
         }
     }
 }

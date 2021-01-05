@@ -29,6 +29,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
               "C:\\Users\\mehme\\Desktop\\Desktop\\GitHub\\My_Blog_Site\\My_Blog_Site.DataAccess\\My_Blog_Site.DataAccess.csproj": {
                 "projectPath": "C:\\Users\\mehme\\Desktop\\Desktop\\GitHub\\My_Blog_Site\\My_Blog_Site.DataAccess\\My_Blog_Site.DataAccess.csproj"
@@ -50,6 +51,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",
@@ -65,7 +67,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -94,6 +96,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
               "C:\\Users\\mehme\\Desktop\\Desktop\\GitHub\\My_Blog_Site\\My_Blog_Site.Entities\\My_Blog_Site.Entities.csproj": {
                 "projectPath": "C:\\Users\\mehme\\Desktop\\Desktop\\GitHub\\My_Blog_Site\\My_Blog_Site.Entities\\My_Blog_Site.Entities.csproj"
@@ -109,6 +112,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -146,7 +150,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -175,6 +179,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -186,6 +191,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",
@@ -201,7 +207,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -230,6 +236,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
               "C:\\Users\\mehme\\Desktop\\Desktop\\GitHub\\My_Blog_Site\\My_Blog_Site.DataAccess\\My_Blog_Site.DataAccess.csproj": {
                 "projectPath": "C:\\Users\\mehme\\Desktop\\Desktop\\GitHub\\My_Blog_Site\\My_Blog_Site.DataAccess\\My_Blog_Site.DataAccess.csproj"
@@ -248,6 +255,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "FakeData": {
               "target": "Package",
@@ -273,7 +281,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -302,6 +310,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
               "C:\\Users\\mehme\\Desktop\\Desktop\\GitHub\\My_Blog_Site\\My_Blog_Site.Entities\\My_Blog_Site.Entities.csproj": {
                 "projectPath": "C:\\Users\\mehme\\Desktop\\Desktop\\GitHub\\My_Blog_Site\\My_Blog_Site.Entities\\My_Blog_Site.Entities.csproj"
@@ -317,6 +326,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",
@@ -332,7 +342,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -361,6 +371,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
               "C:\\Users\\mehme\\Desktop\\Desktop\\GitHub\\My_Blog_Site\\My_Blog_Site.Buisness\\My_Blog_Site.Buisness.csproj": {
                 "projectPath": "C:\\Users\\mehme\\Desktop\\Desktop\\GitHub\\My_Blog_Site\\My_Blog_Site.Buisness\\My_Blog_Site.Buisness.csproj"
@@ -382,6 +393,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",
@@ -400,7 +412,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
