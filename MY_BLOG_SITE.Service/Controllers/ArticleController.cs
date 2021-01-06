@@ -30,35 +30,16 @@ namespace MY_BLOG_SITE.Service.Controllers
 
         [HttpGet]
         [Route("{page}/{pageSize}")]
-        public async Task<IActionResult> GetArticle(int page = 1, int pageSize = 5)
+        public IActionResult GetArticle(int page = 1, int pageSize = 5)
         {
             try
             {
-                List<Article> articleList = await _IArticleService.GetAllArticleModel();
+                IQueryable<Article> query = _IArticleService.GetAllArticleModelQuery();
 
-                int totalCount = articleList.Count();
+                var articles = ArticlePagination(query,page,pageSize);
 
-                List<ArticleViewModel> response = articleList.Skip(pageSize * (page - 1)).Take(pageSize).ToList()
-                                                  .Select(x => new ArticleViewModel()
-                                                  {
 
-                                                      Id = x.Id,
-                                                      Title = x.Title,
-                                                      Article_Content = x.Article_Content,
-                                                      Article_Summary = x.Article_Summary,
-                                                      Picture = x.Picture,
-                                                      Publish_Date = x.Publish_Date,
-                                                      View_Count = x.View_Count,
-                                                      Comment_Count = x.Comments.Count,
-                                                      Category = new CategoryViewModel()
-                                                      {
-                                                          Id = x.Category.Id,
-                                                          Name = x.Category.Name
-                                                      }
-
-                                                  }).ToList();
-
-                var result = new { TotalCount = totalCount, Response = response };
+                var result = new { Response = articles.Item1,TotalCount = articles.Item2 };
 
                 return Ok(result);
 
@@ -104,6 +85,50 @@ namespace MY_BLOG_SITE.Service.Controllers
 
         }
 
+        //.../api/Article/GetArticleWithCategory/2/3/5
+        [HttpGet]
+        [Route("GetArticleWithCategory/{categoryId}/{page}/{pageSize}")]
+        public  IActionResult GetArticleWithCategory(int categoryId,int page=1,int pageSize=5)  
+        {
+            IQueryable<Article> query = _IArticleService.GetAllArticleModelQuery().Where(x=>x.Category.Id == categoryId);
+
+            Tuple<IEnumerable<ArticleViewModel>, int> value = ArticlePagination(query,page,pageSize);
+
+            var result = new { Response = value.Item1 ,TotalCount = value.Item2};
+
+            return Ok(result);
+        }
+
+
+        [NonAction]
+        public  Tuple<IEnumerable<ArticleViewModel>, int> ArticlePagination(IQueryable<Article> query,int page,int pageSize)
+        {
+
+            int totalCount = query.Count();
+
+            List<ArticleViewModel> response = query.Skip(pageSize * (page - 1)).Take(pageSize).ToList()
+                                              .Select(x => new ArticleViewModel()
+                                              {
+
+                                                  Id = x.Id,
+                                                  Title = x.Title,
+                                                  Article_Content = x.Article_Content,
+                                                  Article_Summary = x.Article_Summary,
+                                                  Picture = x.Picture,
+                                                  Publish_Date = x.Publish_Date,
+                                                  View_Count = x.View_Count,
+                                                  Comment_Count = x.Comments.Count,
+                                                  Category = new CategoryViewModel()
+                                                  {
+                                                      Id = x.Category.Id,
+                                                      Name = x.Category.Name
+                                                  }
+
+                                              }).ToList();
+
+            return new Tuple<IEnumerable<ArticleViewModel>, int>(response, totalCount);
+        }
 
     }
+
 }

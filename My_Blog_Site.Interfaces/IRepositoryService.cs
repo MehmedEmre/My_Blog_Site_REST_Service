@@ -1,6 +1,7 @@
 ﻿using My_Blog_Site.Entities.Entities;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
@@ -18,6 +19,8 @@ namespace My_Blog_Site.Interfaces
         Task<List<Article>> GetAllArticleModel();
 
         Task<List<T>> GetAll(Expression<Func<T, bool>> expression);
+
+        IQueryable<Article> GetAllArticleModelQuery();
 
         Task<T> Update(T item);
 

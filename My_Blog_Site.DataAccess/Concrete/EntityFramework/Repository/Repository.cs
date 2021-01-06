@@ -50,6 +50,10 @@ namespace My_Blog_Site.DataAccess.Concrete.EntityFramework.Repository
             return await db.ArticleTable.Include(x => x.Category).Include(x => x.Comments).AsNoTracking().ToListAsync();
         }
 
+        public  IQueryable<Article> GetAllArticleModelQuery()
+        {
+            return  db.ArticleTable.Include(x => x.Category).Include(x => x.Comments).OrderByDescending(x=>x.Publish_Date);
+        }
 
 
         public async Task<bool> Remove(int item)

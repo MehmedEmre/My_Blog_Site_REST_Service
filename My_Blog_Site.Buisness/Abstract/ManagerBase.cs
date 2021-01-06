@@ -3,6 +3,7 @@ using My_Blog_Site.Entities.Entities;
 using My_Blog_Site.Interfaces;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
@@ -72,6 +73,12 @@ namespace My_Blog_Site.Buisness.Abstract
         public async Task<List<Article>> GetAllArticleModel()
         {
             return await _IRepository.GetAllArticleModel();
+        }
+
+        public IQueryable<Article> GetAllArticleModelQuery()
+        {
+            return _IRepository.GetAllArticleModelQuery();
+
         }
     }
 }
