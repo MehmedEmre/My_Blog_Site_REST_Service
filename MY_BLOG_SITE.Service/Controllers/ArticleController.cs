@@ -48,8 +48,21 @@ namespace MY_BLOG_SITE.Service.Controllers
             {
                 return BadRequest(ex.Message);
             }
+        }
+
+        [HttpGet]
+        [Route("GetSearchArticle/{searchText}/{page}/{pageSize}")]
+        public IActionResult GetSearchArticle(string searchText, int page,int pageSize)
+        {
+
+            IQueryable<Article> query = _IArticleService.GetAllArticleModelQuery().Where(x => x.Title.Contains(searchText)).OrderByDescending(y=>y.Publish_Date);
+
+            Tuple<IEnumerable<ArticleViewModel>, int> tupleResult = ArticlePagination(query,page,pageSize);
+
+            var result = new { response = tupleResult.Item1, TotalCount = tupleResult.Item2 };
 
 
+            return Ok(result);
         }
 
 
@@ -98,6 +111,8 @@ namespace MY_BLOG_SITE.Service.Controllers
 
             return Ok(result);
         }
+
+
 
 
         [NonAction]
